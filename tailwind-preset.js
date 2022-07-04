@@ -61,6 +61,10 @@ module.exports = {
         120: "120px",
         130: "130px",
       },
+      fontSize: {
+        xxl: "72px",
+        xl: "30px",
+      },
     },
   },
   plugins: [
