@@ -6,7 +6,7 @@ export default function NavItems({ linkItem, titleItem }) {
     <li>
       <Link
         to={linkItem}
-        className="  block py-4 pr-4 pl-3 text-white bg-primary-dark "
+        className=" border-l border-l-accent-dark block py-4 pr-4 pl-3 text-white bg-primary-dark "
         aria-current="page"
       >
         {titleItem}

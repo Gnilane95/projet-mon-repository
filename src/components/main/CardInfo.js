@@ -13,9 +13,9 @@ export default function CardLeft() {
       <img
         src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
         alt=""
-        className="w-1/4"
+        className="w-96"
       />
-      <div className="bg-primary-dark w-1/4 p-7">
+      <div className="bg-primary-dark w-96 p-7">
         <p className="capitalize text-2xl font-semibold text-white text-center">
           General information
         </p>
