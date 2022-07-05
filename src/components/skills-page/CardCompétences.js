@@ -41,7 +41,7 @@ export default function CardCompétences() {
     },
   ];
   return (
-    <div className="px-24 py-20">
+    <div className="md:px-24 md:py-20 py-30">
       <span className="text-accent-dark text-lg font-medium leading-none">
         Ce que je fais bien
         <h1 className="text-xxl text-primary-dark font-black bg-">

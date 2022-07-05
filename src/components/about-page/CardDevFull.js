@@ -25,16 +25,18 @@ export default function CardRight() {
     },
   ];
   return (
-    <div className="px-24 py-10">
+    <div className="px-10 md:px-24 py-20 md:py-10">
       <span className="text-accent-dark text-xl font-medium leading-none">
         Développeur full stack
-        <h1 className="text-xxl text-primary-dark font-black">Agathe Diouf</h1>
+        <h1 className="text-5xl md:text-xxl text-primary-dark font-black">
+          Agathe Diouf
+        </h1>
       </span>
       <div className="">
-        <h2 className="pt-7 text-xl text-primary-dark font-semibold">
+        <h2 className="pt-20 md:pt-7 text-xl text-primary-dark font-bold md:font-semibold">
           Description
         </h2>
-        <p className="pt-7 text-accent-dark font-medium">
+        <p className="pt-20 md:pt-7 text-accent-dark font-medium">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab
           aspernatur eligendi quisquam praesentium magni maxime modi, asperiores
           officiis, alias, recusandae a. Corporis animi, tempora assumenda
@@ -44,7 +46,7 @@ export default function CardRight() {
           possimus? Beatae aut sed nobis.
         </p>
       </div>
-      <div className="flex justify-between items-center">
+      <div className="px-36 md:flex md:justify-between md:items-center">
         {percentage.map((bar) => (
           <ProgressBars
             percentage={bar.percentage}

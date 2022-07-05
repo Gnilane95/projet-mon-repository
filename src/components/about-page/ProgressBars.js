@@ -6,7 +6,7 @@ export default function ProgressBars({percentage, title}) {
   return (
     <div style={{ width: 150, height: 150 }}>
       <CircularProgressbar
-        className="font-black text-xl"
+        className="font-black text-xl gap-12"
         value={percentage}
         text={`${percentage}%`}
         background

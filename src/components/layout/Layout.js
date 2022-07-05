@@ -8,7 +8,7 @@ export default function Layout({children}) {
     <div className="px-12 h-screen w-screen">
       <Navigation />
       <main className="bg-accent-light ">
-        <div className="flex">
+        <div className="md:flex">
           <CardInfo />
           {children}
         </div>
