@@ -1,13 +1,32 @@
 import React from 'react'
+import ProgressBars from './ProgressBars'
 
 export default function CardRight() {
+  const percentage = [
+    {
+      percentage: 75,
+      title: "Intuition",
+    },
+    {
+      percentage: 83,
+      title: "Créativity",
+    },
+    {
+      percentage: 25,
+      title: "Pure Luck",
+    },
+    {
+      percentage: 95,
+      title: "Awesomeness",
+    },
+  ];
   return (
     <div className="px-24 py-20">
       <span className="text-accent-dark text-xl font-medium leading-none">
         Développeur full stack
         <h1 className="text-xxl text-primary-dark font-black">Agathe Diouf</h1>
       </span>
-      <div>
+      <div className="pb-16">
         <h2 className="pt-16 text-xl text-primary-dark font-semibold">
           Description
         </h2>
@@ -21,8 +40,14 @@ export default function CardRight() {
           possimus? Beatae aut sed nobis.
         </p>
       </div>
-      <div>
-
+      <div className="flex justify-between items-center">
+        {percentage.map((bar) => (
+          <ProgressBars
+            className="bars"
+            percentage={bar.percentage}
+            title={bar.title}
+          />
+        ))}
       </div>
     </div>
   );

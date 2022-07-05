@@ -8,8 +8,8 @@ export default function Navigation() {
       <div className=" flex flex-wrap gap-10 items-center mx-auto">
         <Link to="/" className="flex items-center">
           <span className="self-center text-3xl text-primary-dark font-black whitespace-nowrap">
-            Agathe<span className='text-primary-light'>.</span>
-            <span className='uppercase'>cv</span>
+            Agathe<span className="text-primary-light">.</span>
+            <span className="uppercase">cv</span>
           </span>
         </Link>
         <button
@@ -47,7 +47,10 @@ export default function Navigation() {
         </button>
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-0 font-light md:mt-0 md:text-md">
-            <NavItems linkItem="/" titleItem="About" />
+            <NavItems
+              linkItem="/"
+              titleItem="About"
+            />
             <NavItems linkItem="/skills" titleItem="Skills" />
             <NavItems linkItem="/services" titleItem="Services" />
             <NavItems linkItem="/portfolio" titleItem="Portfolio" />

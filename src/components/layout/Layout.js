@@ -5,9 +5,9 @@ import Navigation from '../Navigation/Navigation';
 
 export default function Layout({children}) {
   return (
-    <div className="px-12">
+    <div className="px-12 h-screen w-screen">
       <Navigation />
-      <main className="bg-accent-light h-screen">
+      <main className="bg-accent-light ">
         <div className="flex">
           <CardInfo />
           {children}
