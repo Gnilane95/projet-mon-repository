@@ -29,7 +29,7 @@ export default function CardTestimonials() {
     },
   ];
   return (
-    <div className="px-24 py-20">
+    <div className="px-20 py-10">
       <span className="text-accent-dark text-lg font-medium leading-none">
         Ce que les gens disent
         <h1 className="text-xxl text-primary-dark font-black">Témoignages</h1>

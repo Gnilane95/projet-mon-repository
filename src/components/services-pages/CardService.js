@@ -26,7 +26,7 @@ export default function CardService() {
     },
   ];
   return (
-    <div className="px-24 py-20">
+    <div className="px-24 py-10">
       <span className="text-accent-dark text-lg font-medium leading-none">
         Ce que je vous offre
         <h1 className="text-xxl text-primary-dark font-black">Mes services</h1>

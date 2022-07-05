@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function CardContact() {
   return (
-    <div className="px-24 py-20">
+    <div className="px-20 py-10">
       <h1 className="text-xxl text-primary-dark font-black">Contactez moi</h1>
-      <p className="w-96 pt-14 text-accent-dark">
+      <p className="w-96 pt-7 text-accent-dark">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
         dignissimos maxime cumque ut commodi labore esse nam quaerat quis.
       </p>
       <div>
         <div>
           <form>
-            <div className="mb-6 flex mt-20 ">
+            <div className="mb-2 flex mt-7 ">
               <input
                 type="email"
                 id="email"
@@ -27,7 +27,7 @@ export default function CardContact() {
                 required=""
               />
             </div>
-            <div className="mb-6">
+            <div className="mb-2">
               <input
                 type="password"
                 id="password"
@@ -36,7 +36,7 @@ export default function CardContact() {
                 required=""
               />
             </div>
-            <div className="mb-6">
+            <div className="">
               <input
                 type="text"
                 id="text"
@@ -49,7 +49,7 @@ export default function CardContact() {
         </div>
         <button
           type="button"
-          className="text-white bg-primary-light hover:bg-primary-dark text-sm px-10 mt-20 py-2.5 mr-2 mb-2 "
+          className="text-white bg-primary-light hover:bg-primary-dark text-sm px-10 mt-5 py-2.5 mr-2"
         >
           Send message
         </button>

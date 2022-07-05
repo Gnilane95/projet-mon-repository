@@ -6,31 +6,35 @@ export default function CardRight() {
     {
       percentage: 75,
       title: "Intuition",
+      id: 1,
     },
     {
       percentage: 83,
       title: "Créativity",
+      id: 2,
     },
     {
       percentage: 25,
       title: "Pure Luck",
+      id: 3,
     },
     {
       percentage: 95,
       title: "Awesomeness",
+      id: 4,
     },
   ];
   return (
-    <div className="px-24 py-20">
+    <div className="px-24 py-10">
       <span className="text-accent-dark text-xl font-medium leading-none">
         Développeur full stack
         <h1 className="text-xxl text-primary-dark font-black">Agathe Diouf</h1>
       </span>
-      <div className="pb-16">
-        <h2 className="pt-16 text-xl text-primary-dark font-semibold">
+      <div className="">
+        <h2 className="pt-7 text-xl text-primary-dark font-semibold">
           Description
         </h2>
-        <p className="pt-10 text-accent-dark font-medium">
+        <p className="pt-7 text-accent-dark font-medium">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab
           aspernatur eligendi quisquam praesentium magni maxime modi, asperiores
           officiis, alias, recusandae a. Corporis animi, tempora assumenda
@@ -43,9 +47,9 @@ export default function CardRight() {
       <div className="flex justify-between items-center">
         {percentage.map((bar) => (
           <ProgressBars
-            className="bars"
             percentage={bar.percentage}
             title={bar.title}
+            key={bar.id}
           />
         ))}
       </div>

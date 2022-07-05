@@ -4,7 +4,7 @@ import NavItems from './NavItems';
 
 export default function Navigation() {
   return (
-    <nav className="bg-white border-gray-200 pt-12 rounded ">
+    <nav className="bg-white border-gray-200 pt-5 rounded ">
       <div className=" flex flex-wrap gap-10 items-center mx-auto">
         <Link to="/" className="flex items-center">
           <span className="self-center text-3xl text-primary-dark font-black whitespace-nowrap">
@@ -19,7 +19,7 @@ export default function Navigation() {
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
+          <span className="sr-only">Menu</span>
           <svg
             className="w-6 h-6"
             fill="currentColor"

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function CardPortfolio() {
   return (
-    <div className="px-24 py-20">
+    <div className="px-20 py-7">
       <h1 className="text-xxl text-primary-dark font-black">Mes services</h1>
       <div className="mt-14">
         <ul className="flex gap-16 text-accent-dark font-medium ">

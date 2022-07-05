@@ -15,7 +15,7 @@ export default function CardLeft() {
         alt=""
         className="w-96"
       />
-      <div className="bg-primary-dark w-96 p-7">
+      <div className="bg-primary-dark w-96 p-3">
         <p className="capitalize text-2xl font-semibold text-white text-center">
           General information
         </p>

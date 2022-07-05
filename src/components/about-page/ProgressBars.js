@@ -6,19 +6,23 @@ export default function ProgressBars({percentage, title}) {
   return (
     <div style={{ width: 150, height: 150 }}>
       <CircularProgressbar
+        className="font-black text-xl"
         value={percentage}
         text={`${percentage}%`}
         background
         backgroundPadding={6}
         styles={buildStyles({
-          backgroundColor: "#a5a5a5",
+          backgroundColor: "#fff",
           opacity: 0.3,
-          textColor: "#fff",
+          textColor: "#100f3a",
           pathColor: "#8583e1",
-          trailColor: "transparent",
+          trailColor: "#a5a5a5",
         })}
       />
-      <p className="uppercase text-primary-dark font-bold text-center pt-7"> {title} </p>
+      <p className="uppercase text-primary-dark font-bold text-center pt-7">
+        {" "}
+        {title}{" "}
+      </p>
     </div>
   );
 }
